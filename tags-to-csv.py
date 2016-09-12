@@ -7,7 +7,7 @@ import csv
 
 # parse command line argumetns
 def parse_args():
-    parser = argparse.ArgumentParser(prog='tags', description='Get instance tags in CSV format.')
+    parser = argparse.ArgumentParser(prog='tags-to-csv', description='Get instance tags in CSV format.')
     # required
     parser.add_argument('-o', '--out', required=True, action='store', dest='output_file', type=str, help='path to where the output should be written')
 
